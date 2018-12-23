@@ -1,5 +1,8 @@
 {
   "name": "OneBitExchange",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  }
 }

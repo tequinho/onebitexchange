@@ -1,0 +1,61 @@
+.exchange_box{
+
+  .card{
+    border: 0;
+
+    .card-header{
+      background-color: #878d99;
+      border-radius: 0;
+      color: white;
+      font-weight: 700;
+    }
+
+    .card-block{
+      padding-top: 10px;
+      padding: 20px;
+
+      .title{
+        color: #878d99;
+        font-weight: 700;
+      }
+
+      .btn-exchange{
+        background-color: #5bc0de;
+        border-color: #5bc0de;
+        border-radius: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .card-header {
+    font-size: 25px;
+  }
+
+  .title{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+    
+  .form-group {
+    select {
+      font-size: 20px;
+      height: 50px !important;
+    }
+
+    input {
+      font-size: 20px;
+      height: 50px;
+    }
+  }
+
+
+  #result {
+    margin-bottom: 20px;
+  }
+
+  .btn-exchange {
+    font-size: 20px;
+  }
+}
